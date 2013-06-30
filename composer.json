@@ -1,15 +1,29 @@
 {
-    "name": "julius/framework-extra-bundle",
+    "name": "jiabin/julius-framework-extra-bundle",
+    "type":        "symfony-bundle",
     "description": "Julius Framework Extra",
-    "require": {
-        "symfony/symfony": ">=2.1,<2.4-dev",
-        "sp/bower-bundle": ">=v0.4,<0.9-dev"
-    },
-    "license": "MIT",
+    "keywords":    ["julius", "framework", "extra"],
+    "homepage":    "https://github.com/jiabin/JuliusFrameworkExtraBundle",
+    "license":     "MIT",
     "authors": [
         {
             "name": "Eymen Gunay",
             "email": "eymen@egunay.com"
         }
-    ]
+    ],
+    "require": {
+        "symfony/symfony": ">=2.1,<2.4-dev",
+        "sp/bower-bundle": ">=v0.4,<0.9-dev"
+    },
+    "target-dir": "Julius/FrameworkExtraBundle",
+    "autoload": {
+        "psr-0": {
+            "Julius\\FrameworkExtraBundle": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
