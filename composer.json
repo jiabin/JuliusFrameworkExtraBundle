@@ -1,0 +1,15 @@
+{
+    "name": "julius/framework-extra-bundle",
+    "description": "Julius Framework Extra",
+    "require": {
+        "symfony/symfony": ">=2.1,<2.4-dev",
+        "sp/bower-bundle": ">=v0.4,<0.9-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eymen Gunay",
+            "email": "eymen@egunay.com"
+        }
+    ]
+}
