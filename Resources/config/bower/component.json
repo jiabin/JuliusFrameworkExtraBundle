@@ -1,4 +1,5 @@
 {
+	"name": "julius-framework-extra-bundle",
     "dependencies": {
         "bootstrap-datetimepicker": "git://github.com/smalot/bootstrap-datetimepicker.git"
     }
