@@ -13,5 +13,10 @@
         <service id="julius_framework_extra.form.type.datetimepicker" class="%julius_framework_extra.datetimepickertype.class%">
             <tag name="form.type" alias="julius_datetimepicker" />
         </service>
+        <!-- Mongo ODM param converter -->
+        <service id="julius_framework_extra.converter.doctrine.mongodb" class="%sensio_framework_extra.converter.doctrine.class%">
+            <tag name="request.param_converter" converter="doctrine.mongodb" />
+            <argument type="service" id="doctrine_mongodb" on-invalid="ignore" />
+        </service>
     </services>
 </container>
