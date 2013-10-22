@@ -13,7 +13,7 @@
     ],
     "require": {
         "symfony/symfony": ">=2.1,<2.4-dev",
-        "sp/bower-bundle": ">=v0.4,<0.9-dev"
+        "sp/bower-bundle": ">=v1.0.0"
     },
     "target-dir": "Julius/FrameworkExtraBundle",
     "autoload": {
