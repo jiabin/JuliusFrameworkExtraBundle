@@ -11,18 +11,8 @@
 
 namespace Julius\FrameworkExtraBundle;
 
-use Julius\FrameworkExtraBundle\DependencyInjection\Compiler\FormPass;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class JuliusFrameworkExtraBundle extends Bundle
 {
-	/**
-     * {@inheritdoc}
-     */
-    public function build(ContainerBuilder $container)
-    {
-        parent::build($container);
-        $container->addCompilerPass(new FormPass());
-    }
 }
